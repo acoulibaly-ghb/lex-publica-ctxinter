@@ -8,7 +8,7 @@ import re
 
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(page_title="Tuteur DIP", page_icon="⚖️")
-st.title("⚖️ Assistant Contentieux international", divider=True)
+st.title("⚖️ Assistant Contentieux international")
 
 # --- RÉCUPÉRATION DE LA CLÉ API ---
 if "GEMINI_API_KEY" in st.secrets:
