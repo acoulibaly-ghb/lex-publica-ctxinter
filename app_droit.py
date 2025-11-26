@@ -10,7 +10,7 @@ import re
 st.set_page_config(page_title="Tuteur DIP", page_icon="⚖️")
 st.title("⚖️ Contentieux international")
 st.subheader(":gray[_par A. Coulibaly_]")
-st.html("<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>")
+st.html("<p><span style='text-align: center; text-decoration: line-through double red;'>Oops</span>!</p>")
 
 # --- RÉCUPÉRATION DE LA CLÉ API ---
 if "GEMINI_API_KEY" in st.secrets:
