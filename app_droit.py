@@ -17,32 +17,33 @@ st.set_page_config(
 # --- 2. LE CSS (DESIGN & CORRECTIONS) ---
 st.markdown("""
 <style>
-    /* 1. CORRECTION MAJEURE : REMONTER LE TITRE */
-    /* On réduit drastiquement la marge du haut de la page */
+    /* REMONTER LE TITRE */
     .block-container {
-        padding-top: 2rem !important; /* C'était 6rem avant, on remonte tout */
+        padding-top: 2rem !important;
         padding-bottom: 5rem !important;
     }
     
-    /* Force le thème clair et police */
+    /* THÈME CLAIR GLOBAL */
     .stApp {
         background-color: #ffffff;
         font-family: 'Inter', sans-serif;
+        color: #111827; /* <--- NOUVEAU : On force le texte global en noir */
     }
     
-    /* Cacher menu et footer */
+    /* CACHER MENU ET FOOTER */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
 
-    /* Style des bulles de chat */
+    /* STYLE DES BULLES DE CHAT */
     .stChatMessage {
         padding: 1rem;
         border-radius: 10px;
         margin-bottom: 10px;
+        color: #111827; /* <--- NOUVEAU : Texte des bulles en noir */
     }
     
-    /* Couleurs des bulles */
+    /* COULEURS DES BULLES */
     .stChatMessage[data-testid="stChatMessage"]:nth-child(odd) {
         background-color: #F8F9FA; /* Gris très pâle (IA) */
         border: 1px solid #E9ECEF;
@@ -52,15 +53,21 @@ st.markdown("""
         border: 1px solid #D0E3FF;
     }
 
-    /* Sidebar */
+    /* SIDEBAR (BARRE LATÉRALE) */
     [data-testid="stSidebar"] {
         background-color: #F8F9FA;
         border-right: 1px solid #E9ECEF;
+        color: #111827; /* <--- NOUVEAU : Texte de la sidebar en noir */
     }
     
-    /* Boutons */
+    /* TExtes spécifiques dans la sidebar (Titres, switch...) */
+    .st-emotion-cache-16idsys p, .st-emotion-cache-16idsys label {
+         color: #111827 !important;
+    }
+    
+    /* BOUTONS */
     .stButton>button {
-        color: white;
+        color: white; /* Le texte du bouton reste blanc car le fond est violet */
         background-color: #4F46E5;
         border: none;
         border-radius: 8px;
