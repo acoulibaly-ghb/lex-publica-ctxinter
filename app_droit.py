@@ -8,7 +8,7 @@ import re
 
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(page_title="Tuteur DIP", page_icon="⚖️")
-st.title("⚖️ Contentieux international")
+st.title("⚖️ Droit du Contentieux international")
 st.html("<p style='text-align: center; font: italic 1.5em Arial, sans-serif;'>par A. Coulibaly</p>")
 
 # --- RÉCUPÉRATION DE LA CLÉ API ---
