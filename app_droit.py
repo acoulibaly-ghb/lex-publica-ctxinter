@@ -63,7 +63,7 @@ st.markdown("""
         border-right: 1px solid #E9ECEF;
     }
 
-    /* 5. BOUTONS (Le texte doit rester blanc sur fond violet) */
+    /* 5. BOUTONS */
     .stButton>button {
         background-color: #4F46E5;
         border: none;
@@ -72,14 +72,14 @@ st.markdown("""
     .stButton>button:hover {
         background-color: #4338CA;
     }
-    /* On force le texte du bouton en BLANC (pour contrer la règle globale noire) */
+    /* On force le texte du bouton en BLANC */
     .stButton>button p {
         color: #ffffff !important;
     }
 
     /* --- CORRECTIF FINAL SIDEBAR (TEXTE INVISIBLE) --- */
     
-    /* Force TOUS les textes de la sidebar en noir */
+    /* Force TOUS les textes standards de la sidebar en noir */
     [data-testid="stSidebar"] p, 
     [data-testid="stSidebar"] span, 
     [data-testid="stSidebar"] label,
@@ -87,11 +87,19 @@ st.markdown("""
         color: #111827 !important;
     }
     
+    /* --- LA LIGNE AJOUTÉE POUR "OPTIONS" --- */
+    /* Force les TITRES (h1, h2, h3) de la sidebar en noir */
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3 {
+        color: #111827 !important;
+    }
+
     /* Cas spécifique pour l'Expander "Aide / Méthode" */
     .streamlit-expanderHeader p, 
     .streamlit-expanderHeader svg {
         color: #111827 !important;
-        fill: #111827 !important; /* Pour la petite flèche */
+        fill: #111827 !important;
     }
     
     /* Cas spécifique pour le switch "Réponses vocales" */
