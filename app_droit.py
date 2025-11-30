@@ -17,63 +17,75 @@ st.set_page_config(
 # --- 2. LE CSS (DESIGN & CORRECTIONS) ---
 st.markdown("""
 <style>
-    /* REMONTER LE TITRE */
+    /* 1. LAYOUT GLOBAL */
     .block-container {
         padding-top: 2rem !important;
         padding-bottom: 5rem !important;
     }
     
-    /* THÈME CLAIR GLOBAL */
+    /* 2. FORCE THÈME CLAIR */
     .stApp {
         background-color: #ffffff;
         font-family: 'Inter', sans-serif;
-        color: #111827; /* <--- NOUVEAU : On force le texte global en noir */
     }
     
-    /* CACHER MENU ET FOOTER */
+    /* Cacher menu et footer */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
 
-    /* STYLE DES BULLES DE CHAT */
+    /* 3. STYLE DES BULLES DE CHAT */
     .stChatMessage {
         padding: 1rem;
         border-radius: 10px;
         margin-bottom: 10px;
-        color: #111827; /* <--- NOUVEAU : Texte des bulles en noir */
     }
     
-    /* COULEURS DES BULLES */
+    /* Couleurs de fond des bulles */
     .stChatMessage[data-testid="stChatMessage"]:nth-child(odd) {
-        background-color: #F8F9FA; /* Gris très pâle (IA) */
+        background-color: #F8F9FA;
         border: 1px solid #E9ECEF;
     }
     .stChatMessage[data-testid="stChatMessage"]:nth-child(even) {
-        background-color: #F0F7FF; /* Bleu très pâle (Étudiant) */
+        background-color: #F0F7FF;
         border: 1px solid #D0E3FF;
     }
 
-    /* SIDEBAR (BARRE LATÉRALE) */
+    /* 4. SIDEBAR */
     [data-testid="stSidebar"] {
         background-color: #F8F9FA;
         border-right: 1px solid #E9ECEF;
-        color: #111827; /* <--- NOUVEAU : Texte de la sidebar en noir */
     }
-    
-    /* TExtes spécifiques dans la sidebar (Titres, switch...) */
-    .st-emotion-cache-16idsys p, .st-emotion-cache-16idsys label {
-         color: #111827 !important;
-    }
-    
-    /* BOUTONS */
+
+    /* 5. BOUTONS */
     .stButton>button {
-        color: white; /* Le texte du bouton reste blanc car le fond est violet */
+        color: white !important; /* Texte bouton blanc */
         background-color: #4F46E5;
         border: none;
         border-radius: 8px;
     }
     .stButton>button:hover {
         background-color: #4338CA;
+    }
+
+    /* --- LE CORRECTIF : FORCE TEXTE NOIR PARTOUT --- */
+    
+    /* Force le noir pour TOUS les paragraphes (p), listes (li) et titres (h1-h6) dans les bulles */
+    .stChatMessage p, .stChatMessage li, .stChatMessage div, .stChatMessage h1, .stChatMessage h2, .stChatMessage h3 {
+        color: #111827 !important;
+    }
+    
+    /* Force le noir dans la Sidebar (Labels, textes, paragraphes) */
+    [data-testid="stSidebar"] p, 
+    [data-testid="stSidebar"] span, 
+    [data-testid="stSidebar"] label, 
+    [data-testid="stSidebar"] div {
+        color: #111827 !important;
+    }
+    
+    /* Cas particulier pour le widget Audio Input (pour qu'il reste lisible) */
+    [data-testid="stAudioInput"] {
+        color: #111827 !important;
     }
 </style>
 """, unsafe_allow_html=True)
