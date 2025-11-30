@@ -27,6 +27,7 @@ st.markdown("""
     .stApp {
         background-color: #ffffff;
         font-family: 'Inter', sans-serif;
+        color: #111827;
     }
     
     /* Cacher menu et footer */
@@ -50,16 +51,20 @@ st.markdown("""
         background-color: #F0F7FF;
         border: 1px solid #D0E3FF;
     }
+    
+    /* FORCE TEXTE NOIR DANS LES BULLES */
+    .stChatMessage p, .stChatMessage li, .stChatMessage div {
+        color: #111827 !important;
+    }
 
-    /* 4. SIDEBAR */
+    /* 4. SIDEBAR (BARRE LATÉRALE) */
     [data-testid="stSidebar"] {
         background-color: #F8F9FA;
         border-right: 1px solid #E9ECEF;
     }
 
-    /* 5. BOUTONS */
+    /* 5. BOUTONS (Le texte doit rester blanc sur fond violet) */
     .stButton>button {
-        color: white !important; /* Texte bouton blanc */
         background-color: #4F46E5;
         border: none;
         border-radius: 8px;
@@ -67,26 +72,33 @@ st.markdown("""
     .stButton>button:hover {
         background-color: #4338CA;
     }
-
-    /* --- LE CORRECTIF : FORCE TEXTE NOIR PARTOUT --- */
-    
-    /* Force le noir pour TOUS les paragraphes (p), listes (li) et titres (h1-h6) dans les bulles */
-    .stChatMessage p, .stChatMessage li, .stChatMessage div, .stChatMessage h1, .stChatMessage h2, .stChatMessage h3 {
-        color: #111827 !important;
+    /* On force le texte du bouton en BLANC (pour contrer la règle globale noire) */
+    .stButton>button p {
+        color: #ffffff !important;
     }
+
+    /* --- CORRECTIF FINAL SIDEBAR (TEXTE INVISIBLE) --- */
     
-    /* Force le noir dans la Sidebar (Labels, textes, paragraphes) */
+    /* Force TOUS les textes de la sidebar en noir */
     [data-testid="stSidebar"] p, 
     [data-testid="stSidebar"] span, 
-    [data-testid="stSidebar"] label, 
-    [data-testid="stSidebar"] div {
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] div[data-testid="stMarkdown"] {
         color: #111827 !important;
     }
     
-    /* Cas particulier pour le widget Audio Input (pour qu'il reste lisible) */
-    [data-testid="stAudioInput"] {
+    /* Cas spécifique pour l'Expander "Aide / Méthode" */
+    .streamlit-expanderHeader p, 
+    .streamlit-expanderHeader svg {
+        color: #111827 !important;
+        fill: #111827 !important; /* Pour la petite flèche */
+    }
+    
+    /* Cas spécifique pour le switch "Réponses vocales" */
+    [data-testid="stCheckbox"] label p {
         color: #111827 !important;
     }
+
 </style>
 """, unsafe_allow_html=True)
 
