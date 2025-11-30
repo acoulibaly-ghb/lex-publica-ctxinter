@@ -10,20 +10,27 @@ import re
 st.set_page_config(
     page_title="Lex Publica IA", 
     page_icon="⚖️",
-    layout="centered", # On centre pour imiter le style Vercel
+    layout="centered", 
     initial_sidebar_state="expanded"
 )
 
-# --- 2. LE "MAQUILLAGE" CSS (DESIGN) ---
+# --- 2. LE CSS (DESIGN & CORRECTIONS) ---
 st.markdown("""
 <style>
-    /* Force le thème clair (au cas où) et police pro */
+    /* 1. CORRECTION MAJEURE : REMONTER LE TITRE */
+    /* On réduit drastiquement la marge du haut de la page */
+    .block-container {
+        padding-top: 2rem !important; /* C'était 6rem avant, on remonte tout */
+        padding-bottom: 5rem !important;
+    }
+    
+    /* Force le thème clair et police */
     .stApp {
         background-color: #ffffff;
         font-family: 'Inter', sans-serif;
     }
     
-    /* Supprimer le menu Hamburger et le footer Streamlit */
+    /* Cacher menu et footer */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
@@ -35,28 +42,26 @@ st.markdown("""
         margin-bottom: 10px;
     }
     
-    /* Bulle de l'Assistant (Fond gris très pâle) */
+    /* Couleurs des bulles */
     .stChatMessage[data-testid="stChatMessage"]:nth-child(odd) {
-        background-color: #F8F9FA;
+        background-color: #F8F9FA; /* Gris très pâle (IA) */
         border: 1px solid #E9ECEF;
     }
-
-    /* Bulle de l'Étudiant (Fond bleu très pâle) */
     .stChatMessage[data-testid="stChatMessage"]:nth-child(even) {
-        background-color: #F0F7FF;
+        background-color: #F0F7FF; /* Bleu très pâle (Étudiant) */
         border: 1px solid #D0E3FF;
     }
 
-    /* Personnalisation de la Sidebar */
+    /* Sidebar */
     [data-testid="stSidebar"] {
         background-color: #F8F9FA;
         border-right: 1px solid #E9ECEF;
     }
     
-    /* Boutons "Primary" (comme 'Pose-moi une colle') en violet/bleu */
+    /* Boutons */
     .stButton>button {
         color: white;
-        background-color: #4F46E5; /* Le bleu/violet de votre capture */
+        background-color: #4F46E5;
         border: none;
         border-radius: 8px;
     }
@@ -66,21 +71,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- 3. LE TITRE PERSONNALISÉ (STYLE VERCEL) ---
-# On utilise du HTML pur pour avoir exactement le même look que votre capture
+# --- 3. LE TITRE (Désormais tout en haut) ---
 st.markdown("""
-    <div style="text-align: center; margin-bottom: 2rem;">
-        <div style="font-size: 3rem;">⚖️</div>
-        <h1 style="font-weight: 800; font-size: 2.5rem; margin-top: 0; color: #111827;">
+    <div style="text-align: center; margin-bottom: 1rem;">
+        <div style="font-size: 3rem; margin-bottom: 0.5rem;">⚖️</div>
+        <h1 style="font-weight: 800; font-size: 2.2rem; margin-top: 0; color: #111827;">
             Lex Publica IA <span style="color: #4F46E5;">by Coulibaly</span>
         </h1>
-        <p style="color: #6B7280; font-size: 1.1rem;">
+        <p style="color: #6B7280; font-size: 1rem;">
             Votre assistant expert en droit du contentieux international.
         </p>
     </div>
 """, unsafe_allow_html=True)
 
-# --- RÉCUPÉRATION CLÉ API ---
+# --- CLÉ API ---
 if "GEMINI_API_KEY" in st.secrets:
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 else:
@@ -91,7 +95,6 @@ else:
 SYSTEM_PROMPT = """
 CONTEXTE : Tu es l'assistant pédagogique expert du Professeur Coulibaly.
 BASE DE CONNAISSANCES : Strictement limitée aux fichiers PDF fournis.
-
 RÈGLES :
 1. Si question TEXTE : Réponds avec le cours.
 2. Si question AUDIO : Commence par "Vous avez demandé : [Transcription]...".
@@ -104,7 +107,6 @@ def load_and_process_pdfs():
     pdf_files = glob.glob("*.pdf")
     if not pdf_files: return None
     uploaded_refs = []
-    # Pas de message de chargement visible (plus propre)
     try:
         for pdf in pdf_files:
             uploaded_refs.append(genai.upload_file(pdf, mime_type="application/pdf"))
@@ -125,24 +127,23 @@ with st.sidebar:
     
     st.divider()
     
-    # Bouton Quiz stylisé
+    # --- MODIFICATION : L'AUDIO EST DÉPLACÉ ICI ---
+    # Cela libère l'écran principal comme demandé
+    st.markdown("**🎙️ Mode Vocal**")
+    audio_input = st.audio_input("Posez votre question ici")
+    
+    st.divider()
+    
     if st.button("🃏 Pose-moi une colle !", use_container_width=True):
         if "chat_session" in st.session_state:
             with st.spinner("Recherche..."):
                 response = st.session_state.chat_session.send_message("Pose-moi une question de vérification.")
                 st.session_state.messages.append({"role": "assistant", "content": response.text})
                 st.rerun()
-    
-    st.divider()
-    
-    # --- VOTRE IDÉE D'IFRAME ---
-    # Par exemple, intégrer Légifrance ou le site de la CIJ
-    with st.expander("🌐 Liens Utiles / Méthode"):
+
+    with st.expander("🌐 Aide / Méthode"):
         st.markdown("**Méthodologie du Cas Pratique**")
         st.info("Rappel : Majeure, Mineure, Conclusion.")
-        # Exemple d'iframe (Site du Conseil d'État ou autre)
-        # Note : Beaucoup de sites bloquent les iframes, mais on peut mettre un PDF d'aide.
-        st.markdown("[Voir le site de la CIJ](https://www.icj-cij.org/fr)", unsafe_allow_html=True)
 
 # --- CHAT ---
 if "messages" in st.session_state:
@@ -153,10 +154,10 @@ if "messages" in st.session_state:
             else:
                 st.markdown(message["content"])
 
-# --- ENTRÉES ---
-audio_input = st.audio_input("🎙️")
+# --- SAISIE TEXTE (Reste en bas, standard des apps de chat) ---
 text_input = st.chat_input("Posez votre question juridique...")
 
+# --- LOGIQUE DE GESTION DES ENTRÉES ---
 user_input = audio_input if audio_input else text_input
 is_audio = audio_input is not None
 
