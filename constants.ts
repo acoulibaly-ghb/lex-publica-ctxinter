@@ -3,6 +3,126 @@ export const DEFAULT_THEME_COLOR = 'rose';
 
 export const DEFAULT_VOICE_SUMMARY = `
 RÉSUMÉ POUR L'ORAL :
+--- DOCUMENT 1: INTRODUCTION AU COURS DE CONTENTIEUX INTERNATIONAL ---
+INTRODUCTION GÉNÉRALE AU CONTENTIEUX INTERNATIONAL — SYNTHÈSE THÉMATIQUE
+
+I. Définition générale du droit du contentieux international
+ Définition :
+« Le droit du contentieux international, c'est l'ensemble des normes de fond et de procédure qui gouvernent le règlement juridictionnel de différends opposant des sujets de droit international. »
+Cette définition repose sur :
+* Critères matériels : normes de fond, normes de procédure, règlement juridictionnel, différends.
+* Critère organique : sujets de droit international.
+
+II. Définition matérielle du contentieux international
+A. La place centrale des différends
+1. Définition et conditions d’existence du différend
+ Définition :
+« Un différend est un désaccord sur un point de droit ou de fait, une contradiction, une opposition de thèses juridiques ou d'intérêts entre deux personnes. » 
+— CPJI, Mavrommatis, 30 août 1924
+Conditions cumulatives d’existence d’un différend :
+1. Réclamation formulée et notifiée par un État X à un État Y.
+2. Rejet explicite ou implicite de cette réclamation par l’État Y.
+Illustrations :
+* Timor oriental (Portugal c. Australie), CIJ, 1995 : « du fait de ce rejet, il existe un différend d’ordre juridique ».
+* Certains biens (Liechtenstein c. Allemagne), CIJ, 2005 : même formule.
+Date de naissance du différend : la date du rejet de la réclamation par l’État destinataire.
+
+2. Qualification du différend : trois principes jurisprudentiels
+1. La Cour est seule compétente pour déterminer l’existence d’un différend.
+ « question de fond, et non de forme ou de procédure ».
+2. Le différend doit exister à la date de la saisine.
+3. Les déclarations des États ne lient pas la Cour.
+ La Cour apprécie souverainement les faits.
+ Affaires du Sud-Ouest africain, CIJ, 1962.
+ Génocide dans la bande de Gaza (Afrique du Sud c. Israël), CIJ, 2024.
+
+3. Justiciabilité des différends
+ Définitions :
+* Différend justiciable :
+« Un différend susceptible d'être soumis valablement à une juridiction internationale. »
+* Différend non justiciable :
+« Un différend insusceptible d'être soumis valablement à une juridiction internationale. »
+Position de la CIJ (4 points) :
+1. La Cour ne statue que sur des différends d’ordre juridique.
+2.  Définition :
+« Un différend d’ordre juridique est un différend susceptible d'être résolu par application des principes et des règles du droit international. » 
+— Actions armées frontalières et transfrontalières (Nicaragua c. Honduras), CIJ, 1988.
+3. Un différend à la fois politique et juridique est traité comme juridique.
+4. La Cour qualifie elle-même le différend.
+
+B. Les modes de règlement des différends
+1. Classification générale
+* Modes juridictionnels :  décisions obligatoires (jugements, arrêts, sentences arbitrales).
+* Modes diplomatiques :  décisions non obligatoires sauf engagement contraire.
+2. Contre-mesures
+ Définition :
+« Une contre-mesure est un acte exclusif de tout recours aux armes, pris par un État, en violation d'une de ses obligations internationales, pour riposter à un fait internationalement illicite commis à son encontre par un autre État. »
+Conditions de licéité (5) — Projet Gabíkovo-Nagymaros, CIJ, 1997 :
+1. Riposte à un fait illicite.
+2. Invitation préalable à cesser le fait ou réparer.
+3. Proportionnalité.
+4. Finalité incitative.
+5. Réversibilité.
+
+3. Modes juridictionnels
+* Règlement judiciaire (CIJ).
+* Arbitrage international.
+
+4. Modes diplomatiques
+ Définitions :
+* Négociation :
+« Mode diplomatique caractérisé par un dialogue, en principe direct, au cours duquel les parties procèdent à des échanges de vues et à des concessions réciproques afin de parvenir à un règlement amiable de leur différend. »
+* Médiation :
+« Mode diplomatique caractérisé par l’intervention, spontanée ou sollicitée, d’un tiers qui s’emploie à rapprocher les points de vue des parties afin de leur proposer un règlement amiable de leur différend. »
+* Bons offices :
+« Mode diplomatique caractérisé par l’intervention spontanée d’un tiers qui s’emploie à persuader les parties de rechercher un règlement pacifique de leur différend. »
+* Enquête internationale :
+« Mode diplomatique caractérisé par l’intervention d’un tiers qui s’emploie, d’abord à établir la matérialité des faits sur lesquels repose le différend, ensuite à proposer aux parties un règlement amiable. »
+* Conciliation :
+« Mode diplomatique caractérisé par la mise en œuvre d’une procédure quasi juridictionnelle au terme de laquelle un tiers (en général, une commission) propose aux parties un règlement amiable de leur différend. »
+Trois principes communs (à connaître absolument) :
+1. Aucun mode diplomatique n’est obligatoire, sauf engagement contraire.
+2. Obligation de comportement, pas de résultat (bonne foi).
+ Trafic ferroviaire Lituanie/Pologne, CPJI, 1931.
+3. La solution n’est pas obligatoire, sauf engagement contraire.
+
+III. Définition organique du contentieux international
+A. Le monopole originaire des États
+1. Justice interétatique
+* Article 34 du Statut de la CIJ : seuls les États peuvent être parties.
+* Souveraineté = « indépendance » (Max Huber, Île de Palmas, 1928).
+2. Justice primaire
+a) Justice supplétive
+ Les États tentent d’abord les modes diplomatiques.
+ Usine de Chorzów, CPJI, 1927.
+ Zones franches, CPJI, 1929.
+b) Justice facultative
+ La compétence de la Cour dépend du consentement des États.
+ Écoles minoritaires en Haute-Silésie, CPJI, 1928.
+c) Justice éclatée
+ Pas de hiérarchie entre juridictions internationales.
+
+B. Ouverture à d’autres sujets de droit
+1. Organisations internationales
+ Peuvent être parties à un différend.
+ Peuvent utiliser tous les modes pacifiques sauf la CIJ (réservée aux États).
+ Réparation des dommages subis au service des Nations Unies, CIJ, 1949.
+
+2. Personnes privées et entreprises
+a) Protection diplomatique
+ Définition : 
+« L’invocation par un État, par une action diplomatique ou d’autres moyens de règlement pacifique, de la responsabilité d’un autre État pour un préjudice causé par un fait internationalement illicite dudit État à une personne physique ou morale ayant la nationalité du premier État en vue de la mise en œuvre de cette responsabilité. »
+— CDI, 2006 ; confirmé par Ahmadou Sadio Diallo, CIJ, 2007.
+ La CPJI (Mavrommatis, 1924) : l’État fait valoir son propre droit.
+b) Conditions de recevabilité
+1. Lien de nationalité
+o Règle de la continuité de la nationalité.
+o Double nationalité  critère de la prépondérance.
+o Sociétés  nationalité = lieu de constitution, sauf exceptions (siège + contrôle ailleurs).
+ Barcelona Traction, CIJ, 1970.
+2. Épuisement des recours internes 
+ Interhandel, CIJ, 1959 ; ELSI, CIJ, 1989.
+ Charge de la preuve précisée dans Ahmadou Sadio Diallo, CIJ, 2007.
 
 `;
 
