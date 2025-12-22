@@ -49,7 +49,7 @@ export const useChatStore = () => {
       title: 'Nouvelle conversation',
       messages: [{
         role: 'model',
-        text: "Bonjour ! Je suis **Ada**, votre assistante viruelle, instruite par le **professeur Coulibaly**. Posez-moi une question sur le **cours de droit du contentieux international**, ou demandez-moi de générer un Quiz, un cas pratique, etc.",
+        text: "Bonjour ! Je suis **Ada**, votre assistante viruelle, instruite par le **professeur Coulibaly**. Posez-moi une question sur le **cours du droit du contentieux international**, ou demandez-moi de générer un Quiz, un cas pratique, etc.",
         timestamp: new Date()
       }],
       updatedAt: Date.now()
