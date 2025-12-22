@@ -158,7 +158,7 @@ const App = () => {
 
   {/* 3) Garantie académique */}
   <p className="mt-0.5 text-[10px] md:text-xs text-slate-500 dark:text-slate-400 truncate uppercase tracking-wider font-medium">
-    <span className={`${activeTheme.text}`}>A. Coulibaly</span> — Droit administratif général
+    <span className={`${activeTheme.text}`}>A. Coulibaly</span> — contentieux international
   </p>
 </div>
           </div>
@@ -202,6 +202,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
