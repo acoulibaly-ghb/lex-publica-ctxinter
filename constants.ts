@@ -251,6 +251,170 @@ Formellement, voici l'ordre de présentation :
 - les opinions individuelles
 - et les opinions dissidentes.
 Toutes ces remarques valent, mutatis mutandis, pour les arrêts rendus par la Cour.
+--- DOCUMENT 3 : CHAPITRE II ---
+
+CHAPITRE II — L’action judiciaire des États devant la CIJ
+
+SECTION I — L’introduction de l’instance
+ Définition : L’instance, c’est la procédure qui s’ouvre devant une juridiction par sa saisine et se clôt par sa décision.
+
+I. Les conditions sine qua non de la compétence contentieuse
+La compétence s’apprécie à la date de la saisine est subordonnée à cinq conditions cumulatives (A, B, C, D et E).
+A. L’appartenance de toutes les parties à l’un quelconque des trois groupes d’États ayant juridiquement accès à la Cour
+Article 34 du Statut de la Cour :
+« Seuls les États ont qualité pour se présenter devant la Cour. »
+Explication concrète :
+o On ne peut assigner que des États devant la Cour ;
+o On ne peut assigner des États devant la Cour que si soi-même on est un État.
+Toutefois, si la Cour n’est ouverte, en matière contentieuse, qu’aux États, elle n’est pas ouverte à tous les États.
+La Cour est ouverte à trois catégories d’États auxquelles les parties doivent donc appartenir : 
+1. Les États membres des Nations Unies (193) ;
+2. Les États non membres des Nations Unies mais parties au Statut de la Cour ;
+3. Les États non parties au Statut de la Cour mais auxquels la Cour peut être ouverte. En vertu de l’article 35 du Statut de la Cour, ces États doivent respecter les conditions fixées par le Conseil de sécurité.
+
+B. La survenance d’un différend
+ Définition :
+« Un différend est un désaccord sur un point de droit ou de fait, une contradiction, une opposition de thèses juridiques ou d'intérêts entre deux personnes. » — Arrêt Mavrommatis, 1924
+Conditions :
+1. Réclamation portée à la connaissance de l’État Y.
+2. Rejet explicite ou implicite par Y.
+
+C. Caractère juridique du différend
+ Définition : « Un différend d’ordre juridique est un différend susceptible d'être résolu par application des principes et des règles du droit international. » — Nicaragua c. Honduras, 1988
+
+D. Persistance du différend
+La date de naissance = date du rejet de la réclamation.
+Le différend ne doit pas avoir disparu avant la saisine de la Cour.
+
+E. Consentement des États
+ « Le consentement des États parties à un différend est le fondement de la juridiction de la Cour en matière contentieuse. »
+— Interprétation des traités de paix, 1950
+1. Modes d’expression du consentement
+a) Compromis
+ Définition :
+« Un compromis est un accord par lequel deux ou plusieurs États conviennent de soumettre à la Cour un différend survenu entre eux.»
+b) Forum prorogatum
+ Forum prorogatum 
+Définition : « Le forum prorogatum correspond à un consentement donné unilatéralement par un État à la compétence de la Cour après la saisine de la Cour par son adversaire qui, quant à lui, a déjà accepté la compétence de la Cour.»
+c) Clause compromissoire
+Définition : 
+« Une clause compromissoire est une disposition (une clause) figurant dans un traité et par laquelle deux ou plusieurs États acceptent la compétence de la Cour pour des différends futurs. »
+d) Déclaration facultative de juridiction obligatoire
+Définition : « Une déclaration facultative de juridiction obligatoire est une déclaration par laquelle un État accepte unilatéralement, conformément à l’article 36, paragraphe 2, du Statut, la compétence de la Cour pour des différends futurs. »
+
+2. Les réserves
+ Réserve — signification générique : 
+« Une réserve est une déclaration unilatérale par laquelle un sujet de droit limite ou précise la portée de l’engagement auquel il consent.»
+ Réserve — signification propre au contentieux international : 
+« Une réserve est une déclaration unilatérale par laquelle un État exclut de son acceptation de la compétence d’une juridiction soit un ou plusieurs différends, soit une ou plusieurs catégories de différends.»
+a) Réserve ratione materiae
+ Définition : 
+« Une réserve ratione materiae est une réserve qui a pour objet d’exclure de la compétence de la Cour les différends concernant certains domaines, certaines matières. »
+b) Réserve ratione temporis
+Définition : 
+« Une réserve ratione temporis est une réserve qui a pour objet d’exclure de la compétence de la Cour les différends survenus avant ou après une certaine date. »
+c) Réserve ratione personae
+ Définition :
+« Une réserve ratione personae est une réserve qui a pour objet d’exclure de la compétence de la Cour les différends que l’État auteur de cette réserve aurait avec certains États plus ou moins clairement identifiés.»
+d) Réserves sui generis
+* Réserve Connally (ratione materiae)
+* Réserve Vandenberg (ratione personae)
+e) Réciprocité
+Toute réserve est une arme à double tranchant : elle protège mais empêche aussi d’assigner sur les mêmes matières.
+
+F. Caractère irrévocable de la compétence de la Cour
+ Jurisprudence Nottebohm / Mandat d’arrêt, 2002 :
+La compétence s’apprécie à la date de la saisine et demeure même si les conditions disparaissent ensuite.
+
+II. Les procédures incidentes
+A. Mesures conservatoires
+ Définition : 
+« Les mesures conservatoires sont des mesures prises par la Cour en vertu de l’article 41 de son Statut et qui ont pour but de sauvegarder, dans l’attente de sa décision sur le fond de l’affaire, les droits revendiqués par chacune des parties. »
+Conditions de recevabilité
+* instance principale préalable
+* demande écrite
+* contenu : mesures, motifs, conséquences
+Conditions de fond (6)
+1. Compétence prima facie
+2. Droits plausibles
+3. Lien droits/mesures
+4. Lien avec l’objet de l’instance
+5. Risque de préjudice irréparable
+6. Urgence
+Force obligatoire :
+Affirmée par l’arrêt LaGrand (2001).
+
+B. Exceptions préliminaires
+ Définition :
+« Une exception préliminaire est un moyen (un argument) de droit ou de fait susceptible de mettre fin à l’instance sans que la juridiction saisie statue sur le fond du différend. »
+Deux types
+1.	Exception préliminaire d’incompétence : 
+« Moyen avancé par une partie afin que la Cour ne statue pas sur le fond du différend, au motif que ne sont pas réunies toutes les conditions dont dépend sa compétence.»
+2.	Exception préliminaire d’irrecevabilité : 
+« Moyen avancé par une partie afin que la Cour ne statue pas sur le fond du différend, au motif que n’a pas été respectée une formalité qui était un préalable obligatoire à sa saisine. »
+Issues possibles
+1. Exception retenue :  fin de l’affaire
+2. Exception rejetée :  reprise de la procédure
+3. Exception jointe au fond
+
+SECTION II — Le déroulement de l’instance
+I. Phases
+A. Phase écrite
+Article 43 : mémoires, contre mémoires, répliques, pièces.
+B. Phase orale
+ Conclusions : 
+« Demande motivée d’une partie (donc, demande et arguments).»
+ Conclusions finales : 
+« Demande d’une partie sans les arguments.»
+La Cour est liée par les conclusions finales (Droit d’asile, 1950).
+
+II. Intervention et désistement
+A. Intervention
+ Définition : 
+« L’intervention, c’est le fait pour un État de se joindre à une procédure pendante devant la Cour sans y être initialement demandeur ou défendeur. »
+B. Désistement
+ Définition :
+« Le désistement, c’est le fait pour un État de renoncer à poursuivre la procédure engagée devant la Cour. »
+
+SECTION III — L’arrêt de la Cour
+I. Prononcé et forme
+A. L’arrêt proprement dit de la Cour
+Outre l’indication qu’il émane de la Cour, l’arrêt de la Cour contient les éléments suivants :
+- les motifs de fait
+- les motifs de droit
+- le dispositif
+
+B – Les déclarations et les opinions des juges
+Les juges qui le souhaitent peuvent joindre à l’arrêt de la Cour une déclaration, une opinion individuelle ou une opinion dissidente.
+Formellement, voici l'ordre de présentation :
+- l’arrêt de la Cour,
+- les déclarations,
+- les opinions individuelles
+- et les opinions dissidentes.
+Définitions :
+1. Une opinion dissidente émane d'un juge qui souhaite exposer les raisons pour lesquelles il s'est trouvé en désaccord, sur un ou plusieurs points, avec le dispositif de l’arrêt et avec les motifs qui en constituent le soutien nécessaire.
+2. Une opinion individuelle est le fait d'un juge qui expose son accord avec le dispositif de l’arrêt de la Cour et son désaccord avec tout ou partie des motifs qui en constituent le soutien nécessaire.
+3. Une déclaration est, selon l’article 95, paragraphe 2, du Règlement, le fait d’un juge qui désire faire constater son accord ou son dissentiment sans en donner les motifs. 
+Il arrive
+- qu'un même texte relève partiellement de chacune de ces trois catégories,
+- ou qu'un même texte soit signé par plusieurs juges : opinion individuelle ou dissidente commune, déclaration commune.
+II – Portée juridique et pratique
+A – La force obligatoire de l’arrêt de la Cour 
+L’article 94, paragraphe 2, du Règlement dispose :
+« [L’arrêt de la Cour] est considéré comme ayant force obligatoire pour les parties du jour de son prononcé. »
+Question : L’autorité de chose jugée (ou force obligatoire) est-elle attachée à la totalité de l’arrêt ?
+Réponse : L’autorité de chose jugée (ou force obligatoire) concerne deux éléments de l’arrêt :
+1. le dispositif (c’est-à-dire la partie décisionnelle de l’arrêt, la partie où la Cour affirme qu’elle décide ceci ou cela)
+2. et les motifs qui sont le soutien nécessaire du dispositif. Ce sont les motifs sans lesquels la Cour n’aurait pas pris la décision qui figure dans le dispositif de son arrêt. Du reste, ces motifs sont dénommés ratio decidendi (raisons de décider).
+En revanche, l’autorité de la chose jugée ne s’étend pas aux motifs que l’on appelle obiter dicta. Il s’agit de motifs inutiles ou surabondants. La Cour aurait pris la même décision sans ces motifs-là.
+
+Ainsi analysée, l’autorité de chose jugée dont est revêtu l’arrêt de la Cour a un caractère relatif, ainsi que le souligne l’article 52 du Statut :
+« La décision de la Cour n'est obligatoire que pour les parties en litige et dans le cas qui a été décidé. »
+B. Voies de recours
+1. Recours en rectification d’erreur matérielle
+2. Recours en Interprétation
+3. Recours en Révision
+Nécessite un fait nouveau.
 `;
 
 export const DEFAULT_COURSE_CONTENT = `
