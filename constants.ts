@@ -124,6 +124,133 @@ o Sociétés  nationalité = lieu de constitution, sauf exceptions (siège + con
  Interhandel, CIJ, 1959 ; ELSI, CIJ, 1989.
  Charge de la preuve précisée dans Ahmadou Sadio Diallo, CIJ, 2007.
 
+ --- DOCUMENT 2 : CHAPITRE I ---
+CHAPITRE I — La Cour internationale de Justice, organe judiciaire à vocation universelle
+I. Identité organique de la Cour
+A. La désignation des juges
+1. Texte fondamental : article 2 du Statut
+« La Cour est un corps de magistrats indépendants, élus sans égard à leur nationalité, parmi les personnes jouissant de la plus haute considération morale et qui réunissent les conditions requises pour l'exercice, dans leurs pays respectifs, des plus hautes fonctions judiciaires ou qui sont des jurisconsultes possédant une compétence notoire en matière de droit international. »
+2. Procédure de désignation des juges permanents
+1. Les groupes nationaux de la Cour permanente d’arbitrage présentent les candidats.
+2. Le Secrétaire général de l’ONU dresse la liste alphabétique.
+3. La liste est communiquée à l’Assemblée générale et au Conseil de sécurité.
+4. Les deux organes élisent séparément et simultanément, à la majorité absolue.
+5. En cas de désaccord persistant : commission médiatrice paritaire (6 membres).
+6. Si échec, les juges déjà élus pourvoient les sièges vacants (voix du plus âgé en cas d’égalité).
+3. Durée et renouvellement
+* 15 juges, mandat de 9 ans, renouvelable.
+* Renouvellement triennal par tiers (5 sièges).
+* Article 9 : représentation des grandes civilisations et principaux systèmes juridiques.
+* Répartition actuelle : Afrique (3), Amérique latine (2), Asie (3), Europe occidentale et autres États (5), Europe orientale (2).
+4. Règles de nationalité
+* Un seul juge par nationalité.
+* Si deux candidats d’un même État sont élus, seul le plus âgé siège.
+* Les membres permanents du Conseil de sécurité disposent de facto d’un siège réservé.
+
+B. Les juges ad hoc
+1. Définition
+Les juges ad hoc sont des juges occasionnels, non permanents, désignés par les parties pour une affaire donnée. Leur mandat cesse avec l’affaire.
+2. Deux hypothèses (article 31 du Statut)
+1. Un seul État a un juge de sa nationalité : l’autre peut désigner un juge ad hoc.
+2. Aucun État n’a un juge de sa nationalité : chaque partie peut désigner un juge ad hoc.
+3. Affaires multipartites
+* Les États faisant cause commune : 
+o ne peuvent désigner qu’un seul juge ad hoc,
+o ou aucun si l’un d’eux a déjà un juge permanent de sa nationalité.
+4. Conséquence
+ Le nombre de juges siégeant peut dépasser 15 (15 + X juges ad hoc).
+
+C. Statut des juges : indépendance
+1. Indépendance affirmée
+Rappel de l’article 2 du Statut (voir plus haut).
+2. Indépendance protégée
+La garantie repose sur un triptyque célèbre :
+ « Ne rien craindre ; ne rien espérer ; vouloir être indépendant.»
+Moyens :
+* incompatibilités,
+* avantages pécuniaires,
+* inamovibilité,
+* privilèges et immunités diplomatiques.
+
+II. Identité fonctionnelle de la Cour
+A. Compétence ratione personae
+1. Deux fonctions de la Cour
+* Fonction contentieuse : trancher des différends entre États uniquement par des arrêts obligatoires.
+* Fonction consultative : répondre à des questions juridiques posées par des organes/institutions de l’ONU par des avis non obligatoires (sauf exceptions).
+2. Accès à la Cour en matière contentieuse
+Seuls les États peuvent être parties (article 34 §1).
+Trois catégories d’États ayant accès :
+1. États membres de l’ONU (article 93 §1).
+2. États non membres mais parties au Statut.
+3. États non parties mais auxquels la Cour est ouverte (conditions fixées par le Conseil de sécurité).
+3. Accès à la fonction consultative
+Seules les organisations internationales habilitées peuvent demander un avis (article 65).
+Deux catégories :
+* AGNU et Conseil de sécurité (habilitation directe).
+* 19 organes/institutions spécialisés habilités par l’AGNU.
+
+B. Compétence ratione materiae
+1. Autonomie des deux fonctions
+Principe :
+ « Aux États la procédure contentieuse, aux organisations internationales la fonction consultative.»
+Justification : éviter qu’un État ne contourne la procédure contradictoire en sollicitant un avis.
+2. Rapprochement des deux fonctions
+* Article 34 §2 : la Cour peut s’inspirer des règles contentieuses en matière consultative.
+* La Cour rappelle qu’elle doit rester fidèle à son caractère judiciaire, même en avis.
+* Références croisées fréquentes entre arrêts et avis.
+* Application du principe du rasoir d’Occam (voir ci dessous).
+
+C. Le principe du rasoir d’Occam (économie du raisonnement)
+Explication :
+La Cour s’abstient volontairement d’un examen complet dans deux cas :
+1. Moyen inopérant (défaut de pertinence juridique).
+2. Absence d’une condition cumulative imposée par le droit.
+2. Illustrations jurisprudentielles
+* Plateau continental Tunisie/Libye, 1985 : si une des conditions cumulatives manque, la Cour n’examine pas les autres.
+* Guinée équatoriale c. France, mesures conservatoires, 2025 : même logique.
+
+D. Conditions d’exercice de la fonction consultative
+1. Compétence de la Cour
+Trois conditions cumulatives :
+1. Habilitation de l’organe requérant.
+2. Caractère juridique de la question.
+ Définition :
+« Une question juridique est une question qui est libellée en termes juridiques, qui soulève des problèmes de droit international et qui, par sa nature même, est susceptible de recevoir une réponse fondée en droit international public.» — Sahara occidental, 1975.
+3. Connexité entre la question et les activités de l’organe (sauf AGNU/CSNU).
+2. Pouvoir discrétionnaire
+Deux principes :
+1. En principe, la Cour répond (participation à l’action de l’ONU).
+2. Elle peut refuser en présence de raisons décisives : 
+o risque de discréditer son rôle judiciaire,
+o absence de consentement d’un État intéressé dans deux cas : 
+1. si l’avis trancherait un différend sans consentement,
+2. si la Cour manque d’informations pertinentes.
+ À ce jour, la Cour n’a jamais refusé d’exercer sa fonction consultative.
+3. Procédure
+* Saisine par requête écrite.
+* Vérification préalable de la composition (juges ad hoc possibles).
+* Notification aux États.
+* Possibilité de solliciter exposés écrits/oraux.
+* Procédure inspirée du contentieux (article 68).
+4. Portée de l’avis
+* En principe : non obligatoire (« autorité de la chose conseillée »).
+* Exceptions prévues par certains instruments (ex. : Statut du Tribunal administratif de l’OIT).
+* Possibilité d’opinions dissidentes, individuelles, déclarations.
+
+Définitions :
+1. Une opinion dissidente émane d'un juge qui souhaite exposer les raisons pour lesquelles il s'est trouvé en désaccord, sur un ou plusieurs points, avec le dispositif de l'avis et avec les motifs qui en constituent le soutien nécessaire.
+3. Une opinion individuelle est le fait d'un juge qui expose son accord avec le dispositif de l'avis et son désaccord avec tout ou partie des motifs qui en constituent le soutien nécessaire.
+Une déclaration est normalement un bref exposé par lequel un juge fait connaître dans quel sens il a voté. Cf. toutefois article 95 pg 2 du Statut : « […] un juge qui désire faire constater son accord ou son dissentiment sans en donner les motifs peut le faire sous la forme d'une déclaration."
+
+Il arrive
+- qu'un même texte relève partiellement de chacune de ces trois catégories
+- ou qu'un même texte soit signé par plusieurs juges : opinion dissidente ou individuelle commune, déclaration commune.
+Formellement, voici l'ordre de présentation :
+- l'avis de la Cour,
+- les déclarations,
+- les opinions individuelles
+- et les opinions dissidentes.
+Toutes ces remarques valent, mutatis mutandis, pour les arrêts rendus par la Cour.
 `;
 
 export const DEFAULT_COURSE_CONTENT = `
