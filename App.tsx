@@ -18,7 +18,7 @@ const themeStyles: Record<string, { bg: string, text: string }> = {
 const App = () => {
   const { profiles, refreshProfiles, lastSync, saveConfigToCloud, fetchConfigFromCloud } = useChatStore();
   const [activeMode, setActiveMode] = useState<AppMode>(AppMode.TEXT);
-  const [courseTitle, setCourseTitle] = useState<string>("Droit administratif général");
+  const [courseTitle, setCourseTitle] = useState<string>("Contentieux international");
   const [courseContent, setCourseContent] = useState<string>(DEFAULT_COURSE_CONTENT);
   const [voiceSummary, setVoiceSummary] = useState<string>(DEFAULT_VOICE_SUMMARY);
   const [systemInstruction, setSystemInstruction] = useState<string>(SYSTEM_INSTRUCTION);
@@ -263,6 +263,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
